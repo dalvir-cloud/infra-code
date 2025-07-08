@@ -1,9 +1,9 @@
-variable "azurerm_virtual_network_name" {
+variable "virtual_network_name" {
   description = "name of the azure virtual network"
   type = string
 }
 
-variable "location" {
+variable "virtual_network_location" {
   description = "location of the azure virtual network"
   type = string 
   
